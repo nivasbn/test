@@ -209,3 +209,87 @@ border: 1px solid #021434;
 :focus{
     border: 1px solid #0088FF;
 }
+
+
+
+
+
+
+
+
+
+/*-----------change------------*/
+* {
+    border-style: none;
+}
+
+.icon-change {
+    display: flex;
+
+}
+
+.change-icon {
+
+
+    width: 60px;
+    height: 51px;
+    top: 15px;
+    left: 15px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.change-icon.default {
+    background: url("./setting.svg") no-repeat 17px;
+    background-color: #021434;
+    border-radius: 2px;
+    border: 1px solid #021434;
+}
+
+.change-icon.default:hover {
+    background-color: rgba(159, 166, 180, 0.4);
+    border-radius: 2px;
+    border: 1px solid rgba(159, 166, 180, 0.4);
+}
+
+.change-icon.selected {
+    background: url("./selected.svg") no-repeat 17px;
+    background-color: rgba(159, 166, 180, 0.2);
+    border-radius: 2px;
+
+
+
+}
+
+:focus {
+    border: 1px solid #0088FF;
+}
+
+/*-------------home------------*/
+.change-icon.home-default {
+    background: url("./homedefault.svg") no-repeat 17px;
+    background-color: #021434;
+    border-radius: 2px;
+    border: 1px solid #021434;
+}
+
+.change-icon.home-default:hover {
+    background-color: rgba(159, 166, 180, 0.4);
+    border-radius: 2px;
+    border: 1px solid rgba(159, 166, 180, 0.4);
+}
+
+.change-icon.home-selected {
+    background: url("./homeselected.svg") no-repeat 17px;
+    background-color: rgba(159, 166, 180, 0.2);
+    border-radius: 2px;
+
+
+
+}
+
+:focus {
+    border: 1px solid #0088FF;
+}
