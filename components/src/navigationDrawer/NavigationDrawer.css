@@ -1,0 +1,211 @@
+.navigation-drawer {
+
+    display: flex;
+
+    width: 60px;
+    height: 51px;
+    top: 15px;
+    left: 15px;
+    position: relative;
+    
+
+
+}
+
+.navigation-drawer.default {
+    background: url("./setting.svg" ) no-repeat 16px;
+}
+
+.navigation-drawer.hover {
+    background: url("./setting.svg") no-repeat 16px  ;
+    /* background-color: #FFFFFF; */
+    background-color: rgba(159, 166, 180, 0.4);
+        border-radius: 2px;
+}
+
+/* .navigation-drawer.hover:hover{
+    background-color: rgba(159, 166, 180, 0.4);
+    border-radius: 2px;
+} */
+
+.navigation-drawer.selected {
+    background: url("./selected.svg") no-repeat 16px;
+    background-color: rgba(159, 166, 180, 0.2);
+    border-radius: 2px;
+}
+
+.navigation-drawer.focused {
+    background: url("./setting.svg") no-repeat 16px; 
+    border: 1px solid #0088FF;
+    border-radius: 2px;
+}
+.navigation-drawer.disabled {
+    background: url("./setting.svg") no-repeat 16px;
+}
+
+
+/*------------------home-----------------------*/
+
+.navigation-drawer.home-default {
+    background: url("./homedefault.svg") no-repeat 16px;
+}
+
+.navigation-drawer.home-hover {
+    background: url("./homedefault.svg") no-repeat 16px;
+    /* background-color: #FFFFFF; */
+    background-color: rgba(159, 166, 180, 0.4);
+    border-radius: 2px;
+}
+
+.navigation-drawer.home-selected {
+    background: url("./homeselected.svg") no-repeat 16px;
+    background-color: rgba(159, 166, 180, 0.2);
+    border-radius: 2px;
+}
+
+.navigation-drawer.home-focused {
+    background: url("./homedefault.svg") no-repeat 16px;
+    border: 1px solid #0088FF;
+    border-radius: 2px;
+}
+
+.navigation-drawer.home-disabled {
+    background: url("./homedisabled.svg") no-repeat 16px;
+}
+
+/*-----------andnotor--------------------*/
+
+.navigation-drawer.andnotor-default {
+    background: url("./andnotordefault.svg") no-repeat 16px;
+}
+
+.navigation-drawer.andnotor-hover {
+    background: url("./andnotordefault.svg") no-repeat 16px;
+    /* background-color: #FFFFFF; */
+    background-color: rgba(159, 166, 180, 0.4);
+    border-radius: 2px;
+}
+
+.navigation-drawer.andnotor-selected {
+    background: url("./andnotorselected.svg") no-repeat 16px;
+    background-color: rgba(159, 166, 180, 0.2);
+    border-radius: 2px;
+}
+
+.navigation-drawer.andnotor-focused {
+    background: url("./andnotordefault.svg") no-repeat 16px;
+    border: 1px solid #0088FF;
+    border-radius: 2px;
+}
+
+.navigation-drawer.andnotor-disabled {
+    background: url("./andnotordisabled.svg") no-repeat 16px;
+}
+
+
+
+/*-----------invicta--------------------*/
+
+.navigation-drawer.invicta-default {
+    background: url("./invictadefault.svg") no-repeat 22px;
+}
+
+.navigation-drawer.invicta-hover {
+    background: url("./invictadefault.svg") no-repeat 22px;
+    /* background-color: #FFFFFF; */
+    background-color: rgba(159, 166, 180, 0.4);
+    border-radius: 2px;
+}
+
+.navigation-drawer.invicta-selected {
+    background: url("./invictaselected.svg") no-repeat 22px;
+    background-color: rgba(159, 166, 180, 0.2);
+    border-radius: 2px;
+}
+
+.navigation-drawer.invicta-focused {
+    background: url("./invictadefault.svg") no-repeat 22px;
+    border: 1px solid #0088FF;
+    border-radius: 2px;
+}
+
+.navigation-drawer.invicta-disabled {
+    background: url("./invictadisabled.svg") no-repeat 22px;
+}
+
+
+
+
+
+/*-----------controlshift--------------------*/
+
+.navigation-drawer.controlshift-default {
+    background: url("./controlshiftdefault.svg") no-repeat 18px;
+}
+
+.navigation-drawer.controlshift-hover {
+    background: url("./controlshiftdefault.svg") no-repeat 18px;
+    /* background-color: #FFFFFF; */
+    background-color: rgba(159, 166, 180, 0.4);
+    border-radius: 2px;
+}
+
+.navigation-drawer.controlshift-selected {
+    background: url("./controlshiftselected.svg") no-repeat 18px;
+    background-color: rgba(159, 166, 180, 0.2);
+    border-radius: 2px;
+}
+
+.navigation-drawer.controlshift-focused {
+    background: url("./controlshiftdefault.svg") no-repeat 18px;
+    border: 1px solid #0088FF;
+    border-radius: 2px;
+}
+
+.navigation-drawer.controlshift-disabled {
+    background: url("./controlshiftdisabled.svg") no-repeat 18px;
+  
+}
+
+
+
+/*-----------change------------*/
+*{
+    border-style: none;
+}
+
+.change-icon{
+    display: flex;
+    
+        width: 60px;
+        height: 51px;
+        top: 15px;
+        left: 15px;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+
+}
+.change-icon.default{
+    background: url("./setting.svg") no-repeat 17px;
+background-color:#021434;
+border-radius: 2px;
+border: 1px solid #021434;
+}
+.change-icon.default:hover{
+    background-color: rgba(159, 166, 180, 0.4);
+        border-radius: 2px;
+        border: 1px solid rgba(159, 166, 180, 0.4);
+}
+
+.change-icon.selected{
+        background: url("./selected.svg") no-repeat 17px ;
+       background-color: rgba(159, 166, 180, 0.2);
+        border-radius: 2px;
+                
+       
+
+}
+:focus{
+    border: 1px solid #0088FF;
+}
